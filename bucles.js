@@ -76,7 +76,7 @@ for (let i = 1; i <= numEje5; i++) {
 
 let arrayEje6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log("Elementos del arrayEje6:");
+console.log("Elementos del array:");
 for (let i = 0; i < arrayEje6.length; i++) {
     console.log(arrayEje6[i]);
 }
@@ -84,7 +84,7 @@ for (let i = 0; i < arrayEje6.length; i++) {
 
 let arrayEje7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log("El doble de cada elemento del arrayEje7 es:");
+console.log("El doble de cada elemento del array es:");
 for (let i = 0; i < arrayEje7.length; i++) {
     let doble = arrayEje7[i] * 2;
     console.log(`El doble de ${arrayEje7[i]} es ${doble}`);
