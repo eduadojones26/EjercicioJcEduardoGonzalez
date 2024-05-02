@@ -31,7 +31,6 @@ do {
     numeroUsuario = parseInt(prompt("Ingresa un número entre 1  al 100 y  para adivinar el número secreto:"));
     intentos++;
 
-    // Paso 3: Comparar el número ingresado con el número secreto
     if (numeroUsuario < numeroSecreto) {
         alert("El número ingresado es menor que el número secreto.");
     } else if (numeroUsuario > numeroSecreto) {
@@ -44,7 +43,6 @@ do {
 // ejercicio 4
 
 let numEje4 = parseInt(prompt("Ingresa un número para verificar si es primo:"));
-
 
 let primo = true;
 
@@ -170,7 +168,6 @@ alert(`El número más pequeño en el array es el : ${numeroMasPequeño}`);
 
 let jugador1 = prompt("Ingrese el nombre del jugador 1:");
 let jugador2 = prompt("Ingrese el nombre del jugador 2:");
-
 
 let ganador = "";
 
