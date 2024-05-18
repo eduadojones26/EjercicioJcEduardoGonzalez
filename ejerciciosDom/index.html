@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios Dom</title>
+    <link rel="stylesheet" href="/stylesDom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-evenly ">
+        <div id="tablaImc">
+            <form id="imcForm">
+                <legend>Calculadora de Índice de Masa Corporal (IMC)</legend>
+                <div class="col-12">
+                    <label for="peso">Peso (kg):</label>
+                    <input type="number" id="peso" required placeholder=" Peso en kilogramos">
+                </div>
+                <div class="col-12">
+                    <label for="altura">Altura (cm):</label>
+                    <input type="number" id="altura" required placeholder="Altura en centimetros">
+                </div>
+                <div class="col-12">
+                    <button type="button" id="calcular" class="btn btn-secondary">Calcular</button>
+                    <br>
+                    <label for="resultado">Tu IMC:</label>
+                    <input type="text" id="resultado" readonly>
+                </div>
+            </form>
+        </div>
+
+        <div id="cajaDivisa">
+            <form id="divisaCal">
+                <legend>Convercion de divisas</legend>
+                <div class="col-12">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" id="cantidad" value="0">
+                </div>
+                <div class="col-12">
+                    <label for="monedaOrigen">De:</label>
+                    <select id="monedaOrigen">
+
+                        <option value="pesoColombiano">Pesos Colombianos</option>
+                        <option value="dolarAmericano">Dolar Americano</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="monedaDestino">A:</label>
+                    <select id="monedaDestino">
+                        <option value="pesoColombiano">Pesos Colombianos</option>
+                        <option value="dolarAmericano">Dolar Americano</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" id="convertir" class="btn btn-secondary">Convertir</button>
+                    <br>
+                    <label for="resultadoDivisa">Resultado de la convercion</label>
+                    <input type="number" id="resultadoDivisa" readonly>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/dom.js"></script>
+
+
+
+</body>
+
+</html>

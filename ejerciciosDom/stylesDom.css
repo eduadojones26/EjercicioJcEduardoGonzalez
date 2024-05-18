@@ -1,0 +1,65 @@
+
+
+#tablaImc form {
+    width: 35vw;
+    height: 70vh;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cajaDivisa form{
+    width: 35vw;
+    height: 70vh;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tablaImc label,
+input,
+button {
+    display: block;
+    margin: 10px;
+}
+
+#cajaDivisa label,
+input,
+button {
+    display: block;
+    margin: 10px;
+}
+
+#tablaImc input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#cajaDivisa input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+#contenedorNotas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #72c3ef;
+}
+
+#tarjeta {
+    width: 20vw;
+    height: auto;
+    display: flex;
+   margin: 5px;
+}
